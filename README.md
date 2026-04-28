@@ -8,3 +8,17 @@
 O projeto possui caráter extensionista por estabelecer uma conexão direta entre o conhecimento acadêmico e uma demanda real da comunidade. A proposta será desenvolvida em parceria com a empresa do tio de um dos integrantes da equipe, que atua no ramo de fabricação e venda de velas há anos, vivenciando diariamente os desafios operacionais e comerciais do negócio.\
 A criação do site tem como objetivo auxiliar nos processos de venda, automatizando etapas fundamentais que atualmente consomem tempo e tornam as tarefas diárias mais desgastantes. Dessa modo, a solução buscará otimizar a rotina da empresa, melhorar a organização dos pedidos e contribuir para o fortalecimento da presença digital do empreendimento.\
 Além disso, o projeto permitirá a participação ativa do empresário na avaliação e sugestão de melhorias, possibilitando ajustes conforme as necessidades reais do negócio. Essa interação reforça o compromisso social, profissional e ético da equipe, ao aplicar conhecimentos técnicos em benefício direto da comunidade e do desenvolvimento local.
+
+## 1. Otimização do Menu de Navegação (Desktop)
+No processo de adaptação para dispositivos desktop, foi decidida a **retirada do menu hambúrguer** da página inicial (Home). 
+Os links de navegação foram expostos diretamente no cabeçalho, permitindo acesso imediato às seções principais sem a necessidade de cliques adicionais para abrir um menu suspenso.
+
+## 2. Estrutura de Rotas e Redirecionamento
+O projeto mantém uma lógica de **rota simples** e funcional que já havia sido composta na estrutura base do site:
+- **Funcionalidade:** Os links foram configurados para redirecionar o usuário de forma intuitiva para seus respectivos nomes e seções.
+- **Implementação:** A navegação ocorre de forma direta, garantindo que a hierarquia da informação seja respeitada e que o usuário saiba exatamente onde se encontra dentro da aplicação.
+
+## 3. Dinâmica de Visualização de Produtos
+Para aumentar a interatividade do catálogo de suplementos, foi implementada uma rota dinâmica de visualização detalhada:
+- **Interação:** Ao clicar diretamente sobre a imagem ou card de um produto, o sistema exibe de forma dinâmica os detalhes específicos daquele item.
+- **Experiência do Usuário (UX):** Essa abordagem permite que o usuário explore informações técnicas, benefícios e preços de forma integrada, mantendo o fluxo de navegação fluido e moderno.
